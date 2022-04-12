@@ -337,7 +337,7 @@
               <MiscControls>--diag_suppress=111 --diag_suppress=381 --diag_suppress=177  --diag_suppress=1295  --diag_suppress=1</MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xB</Define>
               <Undefine></Undefine>
-              <IncludePath>../Inc; ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy; ../Drivers/STM32F1xx_HAL_Driver/Inc; ../Middlewares/Third_Party/FreeRTOS/Source/include; ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS; ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3; ../Drivers/CMSIS/Device/ST/STM32F1xx/Include; ../Drivers/CMSIS/Include; ..\User_src; ..\dep\ztimecpp; ..\User_src\bsp</IncludePath>
+              <IncludePath>../Inc; ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy; ../Drivers/STM32F1xx_HAL_Driver/Inc; ../Middlewares/Third_Party/FreeRTOS/Source/include; ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS; ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3; ../Drivers/CMSIS/Device/ST/STM32F1xx/Include; ../Drivers/CMSIS/Include; ..\User_src; ..\dep; ..\User_src\bsp</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -409,7 +409,7 @@
             <File>
               <FileName>loop_queue.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\dep\ztimecpp\zwtimec\utils\loop_queue.c</FilePath>
+              <FilePath>..\dep\zwtimec\utils\loop_queue.c</FilePath>
             </File>
             <File>
               <FileName>flash_operate.c</FileName>
