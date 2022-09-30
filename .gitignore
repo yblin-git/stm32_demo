@@ -1,1 +1,4 @@
 MDK-ARM/OzoneGenerator
+MDK-ARM/*.bin
+MDK-ARM/OzoneGenerator.uvguix.yblin
+User_src/version.h
